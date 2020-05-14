@@ -1,0 +1,37 @@
+Limpando
+
+remover
+
+README.txt
+App.css
+App.test.js
+index.css
+logo.svg
+serviceWorker.js
+setupTest.js
+
+Public remover
+
+robots.txt
+manifest.json
+logo*.png
+
+
+Limpar index.js removendo os imports desencessarios e comentarios.
+Limpar App.js
+Limpar index.html
+
+Props: são atributos, propriedades do componente.
+State: informação mantida pelo componente.
+
+
+Instalar Icones
+
+npm install react-icons
+
+Instalar rotas
+
+npm install react-router-dom
+
+
+Parei - Construindo a interface web - 1:01:23

@@ -1,0 +1,112 @@
+BACKEND
+-------
+
+- NodeJs
+
+Tipos de parametros
+
+Query Params: Parametros nomeados enviados na rota após "?" (Filtros, paginação)
+    (?pagina=1&pagina=2)
+    const params = request.query;
+
+
+Route Params: Parametros utilizados para identificar rescursos
+    /users/:id -> /users/1
+     const params = request.params;
+
+Request Body: Corpo da requisicao utilizado para criar ou alterar recursos.
+    const params = request.body;
+    app.user(express.json()) <-> para requisicoes aceitar JSON
+
+Pacotes
+=======
+
+Nodemon (automatiza o deploy, não precisar reiniciar node toda alteração)
+-------
+
+    npm install nodemon -D
+        (-D apenas para desenvolvimento)
+
+    Alterar package.json e add um script de start
+
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+
+    inciar -> npm start
+
+SQLLite
+-------
+
+    Driver: select * from tabela
+    Query Builder: table('users').select('*').where() (Knex)
+
+Knex.js com Sqlite
+------------------
+
+    npm install knex -s
+    npm install sqlite3 (driver)
+
+Conexao com o banco de dados
+
+    npx knex init
+    ** vai criar ./knexfile.js
+
+
+Abalise
+---------
+
+
+
+ENTIDADES
+---------
+
+ONG
+Incident
+
+Funcionaliades
+--------------
+
+Login de ONG
+Cadastro de ONG
+Logout de ONG
+Cadastrar novos casos
+Deletar casos
+Listar casos especificos da ONG
+Listar todos os casos
+Entrar em contato com a ONG
+
+** Tableas serao criadas pelo migration porque mantem um historico de criacao das tabelas.
+
+Criamos a pasta migrations em /src/database
+
+        -> npx knex migrate:make create_ongs
+        -> npx knex migrate:make create_incidents
+
+Criar as tabelas com base nas migrations
+        -> npx knex migrate:latest
+
+Rollback
+
+        -> npx knex migrate:rollback
+
+Status
+      -> npx knex migrate:status
+
+FRONTEND
+--------
+
+Criacao frontend ReactJs
+
+npx executa pacote externo sem instala-lo
+
+npx create-react-app frontend
+
+
+
+
+
+
+
+
+------------------- 1:11:00 video 2
