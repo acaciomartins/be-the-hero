@@ -34,4 +34,8 @@ Instalar rotas
 npm install react-router-dom
 
 
-Parei - Construindo a interface web - 1:01:23
+Instalar axios
+
+npm install axios
+
+Parei - Construindo a interface web - 1:32:14
