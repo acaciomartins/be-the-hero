@@ -1,0 +1,99 @@
+Instalando o Expo globalmente
+-----------------------------
+
+npm install -g expo-cli
+
+
+
+Criando o projeto
+-----------------
+
+expo init mobile
+
+
+Possíveis issues
+----------------
+
+GitHub com alguns problemas - rocketseat/expo-common-issues
+
+Issues de Watch no Expo
+-----------------------
+
+https://stackoverflow.com/questions/22475849/node-js-what-is-enospc-error-and-how-to-solve/32600959#32600959
+
+
+Executar no celular
+-------------------
+
+
+Limpezas
+--------
+
+Navegacao
+---------
+
+1) npm install @react-navigation/native
+
+
+2) Se extiver usando expo
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+3) Usando Stack Navigator
+npm install @react-navigation/stack
+
+
+Pacote pra nao ficar debaixo do status bar
+------------------------------------------
+npm install expo-constants
+
+Pacote para E-mail composer do Expo
+-----------------------------------
+https://docs.expo.io/versions/latest/sdk/mail-composer/
+
+expo install expo-mail-composer
+
+
+Acesso BackEnd
+==============
+
+Instação Axios
+--------------
+
+npm install axios
+
+
+Solução para acesso de api pelo Genymotion ou AVD
+-------------------------------------------------
+https://stackoverflow.com/questions/5528850/how-do-you-connect-localhost-in-the-android-emulator
+Use 10.0.2.2 for default AVD and 10.0.3.2 for Genymotion
+
+Pacote intl para formatar valor R$ no android
+---------------------------------------------
+
+npm install intl
+
+Paginacao Infinita
+------------------
+
+
+
+
+Instalar Android Studio
+------------------------
+
+sudo apt update && sudo apt install android-sdk
+
+
+Documentacao
+------------
+
+Navegacao: https://docs.expo.io/guides/routing-and-navigation/
+https://github.com/react-navigation/react-navigation
+https://reactnavigation.org/docs/getting-started
+
+
+parei   09:19
+        36:23
+        54:24
+        1:14:45
+        
