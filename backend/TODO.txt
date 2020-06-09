@@ -93,6 +93,51 @@ Rollback
 Status
       -> npx knex migrate:status
 
+
+VALIDACOES
+----------
+
+Celebrate Integra joi com express (usa joi que valida)
+
+https://github.com/arb/celebrate
+
+npm install celebrate
+
+
+TESTES
+======
+
+TDD
+---
+
+Jest
+----
+
+npm install jest
+
+depois de instalado
+
+npx jest --init
+
+BANCO DE DADOS PARA TESTES
+--------------------------
+
+Criar no knexfile.js um para testes.
+
+Instalar Cross-env para simular ambiente de Test
+------------------------------------------------
+
+npm install cross-env
+
+Acesso API em tests
+-------------------
+
+Super Test
+----------
+
+npm install supertest -D
+
+
 FRONTEND
 --------
 
@@ -109,4 +154,4 @@ npx create-react-app frontend
 
 
 
-------------------- 1:11:00 video 2
+------------------- 50:58 - funcoes avançadas
